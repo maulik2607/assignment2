@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 40px;
+}
+
+#box {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  position: absolute;
+  display: none;
+ 
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+#reactionTime {
+  margin-top: 20px;
+  font-size: 18px;
+}
